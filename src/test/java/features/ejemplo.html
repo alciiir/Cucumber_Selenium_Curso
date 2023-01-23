@@ -1,0 +1,41 @@
+
+/******* Localizar por ID ********/
+<div id="id.date.expiration">...</div>
+By element = By.id("id.date.expiration");
+
+/******* Localizar por name ********/
+<input name="cheese" type="text"/>
+By element = By.name("cheese");
+
+/******* Localizar por classname ********/
+<div className="cheese"> <span>Cheddar></span> </div>
+By element = By.className("cheese"));
+
+/******* Localizar por xpath ********/
+<input type="text" name="example" />
+By element = By.xpath("//input[@name='example']");
+
+
+
+
+
+
+/******* Localizar por LinkText ********/
+<a href="http://www.google.com/search?q=qa-automation">best channel</a>
+By element = By.linkText("best channel");
+
+/******* Localizar por partialLinkText ********/
+<a href="http://www.google.com/search?q=qa-automation">best channel</a>
+By element = By.partialLinkText("best");
+
+/******* Localizar por tagName ********/
+<iframe src="..."></iframe>
+By element = By.tagName("iframe");
+
+/******* Localizar por cssSelector ********/
+<div id="food">
+    <span class="dairy aged">cheese</span>
+</div>
+By element = By.cssSelector("#food span. dairy.aged");
+
+
